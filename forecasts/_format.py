@@ -2,7 +2,7 @@ from datetime import datetime
 
 import pandas as pd
 
-import config.table
+from . import _config
 
 
 def weather_html(df: pd.DataFrame) -> str:
@@ -16,7 +16,7 @@ def weather_html(df: pd.DataFrame) -> str:
     ).replace('<th>', '<th class="text-center">')
 
 def weather_emoji(weather_code: str) -> str:
-    return config.table.weather_emojis[weather_code]
+    return _config.weather_emojis[weather_code]
 
 def weather_day(weather_date: datetime) -> str:
     return weather_date.strftime('%d/%m')

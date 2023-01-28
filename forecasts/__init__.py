@@ -3,10 +3,10 @@ import flask
 from . import _format, _forms
 from ._weatherman import Weatherman
 
-forecasts_blueprint = flask.Blueprint('weatherman', __name__)
 
+forecasts_blueprint = flask.Blueprint('forecasts', __name__)
 
-@forecasts_blueprint.route("/", methods=["GET", "POST"])
+@forecasts_blueprint.route("/previsao", methods=["GET", "POST"])
 def weather_forecast():
     if flask.request.method == 'GET':
         return _render_page()

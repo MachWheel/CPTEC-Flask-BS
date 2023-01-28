@@ -1,4 +1,4 @@
-headers = {
+table_headers = {
     "dia": "Dia",
     "tempo": "Tempo",
     "maxima": "Máx.",

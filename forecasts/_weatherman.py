@@ -2,9 +2,8 @@ from datetime import datetime
 
 import pandas as pd
 
-import config.table
 import cptec
-from . import _format
+from . import _format, _config
 
 
 class Weatherman:
@@ -29,7 +28,7 @@ class Weatherman:
         df['dia'] = df['dia'].apply(func=_format.weather_day)
         df['tempo'] = df['tempo'].apply(func=_format.weather_emoji)
         df.drop(columns=['iuv'], inplace=True)
-        df.rename(columns=config.table.headers, inplace=True)
+        df.rename(columns=_config.table_headers, inplace=True)
         return {
             'city_name': city_name,
             'district_name': district_name,
