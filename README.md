@@ -12,8 +12,9 @@
          alt="CPTEC-Flask-BS demo">
 </p>
 
-
-# Clonando o repositório:
+<h3>
+    &#128203; Clonando o repositório:
+</h3>
 
 Primeiro, verifique a versão do seu Python.  
 Esta aplicação foi desenvolvida utilizando **Python 3.11.1**:
@@ -44,3 +45,8 @@ Instale as dependencias do projeto:
 Pronto. Agora você pode executar a aplicação digitando:
 
     py application.py
+
+
+<h3>
+    &#128736;&#65039; Utilizando no seu projeto:
+</h3>
