@@ -1,0 +1,30 @@
+<form action="/" method="POST" class="text-center">
+    <div class="card p-3 bg-info bg-opacity-25 my-4">
+        <div class="form-group text-center" id="forecast-form">
+            <h6 class="mb-1 pb-1">
+                <label class="form-check-label" for="city_name">
+                    &#127961;&#65039; Cidade
+                </label>
+                <input type="text"
+                       class="form-control form-control-lg text-center mt-3"
+                       id="city_name" name="city_name"
+                       placeholder="Digite o nome da cidade"
+                       value="{{ form.city_name.data }}"
+                       list="cidades" required>
+                <datalist id="cidades">
+                    {% include 'data/cities.html' %}
+                </datalist>
+            </h6>
+        </div>
+
+        {% include 'partial/msg-display.html' %}
+
+        <button class="w-100 btn btn-primary mt-2" type="submit">
+            {% if results %}
+                Refazer Previsões &#128260;
+            {% else %}
+                Realizar Previsões &#9197;&#65039;
+            {% endif %}
+        </button>
+    </div>
+</form>
