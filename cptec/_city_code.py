@@ -1,8 +1,7 @@
 import requests
 import xmltodict
 
-import msg
-from . import _sanitize
+from . import _msg, _sanitize
 
 
 def get_city_code(city_name: str) -> int:
@@ -12,7 +11,7 @@ def get_city_code(city_name: str) -> int:
     response = requests.get(url)
     cities = xmltodict.parse(response.content)
     if cities['cidades'] is None:
-        msg.INVALID_CITY_NAME(city_name)
+        _msg.INVALID_CITY_NAME(city_name)
         raise ValueError
     for _, city in cities['cidades'].items():
         if type(city) is list:

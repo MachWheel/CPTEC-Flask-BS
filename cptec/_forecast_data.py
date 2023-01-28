@@ -1,7 +1,7 @@
 import requests
 import xmltodict
 
-import msg
+from . import _msg
 
 
 def get_forecast_data(city_code: int) -> dict:
@@ -14,9 +14,9 @@ def get_forecast_data(city_code: int) -> dict:
         response = requests.get(url)
         forecast_data = xmltodict.parse(response.content)
     except requests.RequestException as err:
-        msg.UNKNOWN_ERROR(err.strerror)
+        _msg.UNKNOWN_ERROR(err.strerror)
         raise ValueError
     if forecast_data['cidade']['nome'] == 'null':
-        msg.INVALID_CITY_CODE(city_code)
+        _msg.INVALID_CITY_CODE(city_code)
         raise ValueError
     return forecast_data
