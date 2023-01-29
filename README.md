@@ -2,24 +2,23 @@
     &#9729;&#65039; CPTEC-Flask-BS
 </h1>
 
-<p align="center">
+<h3 align="center">
     Aplicação web Flask para obter e mostrar dados de 
     previsão do tempo fornecidos pelo CPTEC/INPE
-</p>
+</h3>
 
-<p align="center"><b>
+<h3 align="center"><b>
     &#128098; Bootstrap v5.3    
-</b></p>
+</b></h3>
 
-<p align="center"><b>
+<h3 align="center"><b>
     &#128241; Mobile Friendly
-</b></p>
+</b></h3>
 
 
-
-<p align="center"><b>
+<h3 align="center"><b>
     &#128220; Lista com todos os municípios
-</b></p>
+</b></h3>
 
 <div align="center">
     <video src="https://user-images.githubusercontent.com/11186756/215348410-643f9bd8-955e-4279-ab04-b7664c23164e.mp4" alt="Demo Lista Municipios" width=480/>
@@ -27,9 +26,9 @@
 
 
 
-<p align="center"><b>
+<h3 align="center"><b>
     &#128269; Busca por município
-</b></p>
+</b></h3>
     
 <div align="center">
     <video src="https://user-images.githubusercontent.com/11186756/215348587-bafd9869-fb3f-4973-b0fd-2581077475db.mp4" alt="Demo Busca Municipio" width=480/>
@@ -37,9 +36,9 @@
 
 
 
-<p align="center"><b>
+<h3 align="center"><b>
     &#128172; Feedbacks para erros
-</b></p>
+</b></h3>
 
 <div align="center">
     <video src="https://user-images.githubusercontent.com/11186756/215349551-36e6a99c-9bf0-4e77-98e2-d2aac3847b3b.mp4" alt="Demo Busca Municipio" width=480/>
