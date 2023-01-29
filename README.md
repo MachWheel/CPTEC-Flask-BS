@@ -5,14 +5,23 @@
 <p align="center">
     Aplicação web Flask para obter e mostrar dados de 
     previsão do tempo fornecidos pelo CPTEC/INPE
-	<b>
-		&#128098; Bootstrap v5.3
-		&#128241; Mobile Friendly
-		&#128269; Busca por município
-		&#128172; Feedbacks para erros
-		&#128220; Lista com todos os municípios
-	</b>
 </p>
+
+<p align="center"><b>
+    &#128098; Bootstrap v5.3    
+</b></p>
+<p align="center"><b>
+    &#128241; Mobile Friendly
+</b></p>
+<p align="center"><b>
+    &#128269; Busca por município
+</b></p>
+<p align="center"><b>
+    &#128172; Feedbacks para erros
+</b></p>
+<p align="center"><b>
+    &#128220; Lista com todos os municípios
+</b></p>
 
 <p align="center">
     <img src="/static/demo.gif?raw=true" 
