@@ -15,9 +15,6 @@
     &#128241; Mobile Friendly
 </b></p>
 
-<p align="center"><b>
-    &#128172; Feedbacks para erros
-</b></p>
 
 
 <p align="center"><b>
@@ -29,12 +26,23 @@
 </div>
 
 
+
 <p align="center"><b>
     &#128269; Busca por município
 </b></p>
     
 <div align="center">
     <video src="https://user-images.githubusercontent.com/11186756/215348587-bafd9869-fb3f-4973-b0fd-2581077475db.mp4" alt="Demo Busca Municipio" width=480/>
+</div>
+
+
+
+<p align="center"><b>
+    &#128172; Feedbacks para erros
+</b></p>
+
+<div align="center">
+    <video src="https://user-images.githubusercontent.com/11186756/215349551-36e6a99c-9bf0-4e77-98e2-d2aac3847b3b.mp4" alt="Demo Busca Municipio" width=480/>
 </div>
 
     
