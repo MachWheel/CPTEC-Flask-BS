@@ -47,3 +47,5 @@ weather_emojis = {
     "ppt": "⛈ 🌇",
     "ppm": "⛈ 🌅"
 }
+# REFERÊNCIA DAS SIGLAS:
+# http://servicos.cptec.inpe.br/XML/#condicoes-tempo

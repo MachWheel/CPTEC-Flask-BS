@@ -5,6 +5,13 @@
 <p align="center">
     Aplicação web Flask para obter e mostrar dados de 
     previsão do tempo fornecidos pelo CPTEC/INPE
+	<b>
+		&#128098; Bootstrap v5.3
+		&#128241; Mobile Friendly
+		&#128269; Busca por município
+		&#128172; Feedbacks para erros
+		&#128220; Lista com todos os municípios
+	</b>
 </p>
 
 <p align="center">
@@ -12,12 +19,11 @@
          alt="CPTEC-Flask-BS demo">
 </p>
 
-<h2>
-    &#128203; Clonando o repositório:
-</h2>
+
+## &#128203; Clonando o repositório:
 
 Primeiro, verifique a versão do seu Python.  
-Esta aplicação foi desenvolvida utilizando **Python 3.11.1**:
+Esta aplicação foi desenvolvida utilizando **Python 3.11.1**
 
     py --version
 
@@ -28,8 +34,8 @@ Agora, instale o virtualenv (caso não esteja disponível):
 
 Clone o repositório e mude para seu diretório:
     
-    git clone https://github.com/MachWheel/Crop-My-GIF.git
-    cd Crop-My-GIF
+    git clone https://github.com/MachWheel/CPTEC-Flask-BS.git
+    cd CPTEC-Flask-BS
 
 
 Crie um virtualenv para o projeto e ative-o:
@@ -47,9 +53,7 @@ Pronto. Agora você pode executar a aplicação digitando:
     py application.py
 
 
-<h2>
-    &#128736;&#65039; Utilizando no seu projeto:
-</h2>
+## &#128736;&#65039; Utilizando no seu projeto:
 
 Apenas copie para a raiz do seu projeto os diretórios:
 
