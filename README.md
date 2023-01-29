@@ -12,9 +12,9 @@
          alt="CPTEC-Flask-BS demo">
 </p>
 
-<h3>
+<h2>
     &#128203; Clonando o repositório:
-</h3>
+</h2>
 
 Primeiro, verifique a versão do seu Python.  
 Esta aplicação foi desenvolvida utilizando **Python 3.11.1**:
@@ -47,6 +47,28 @@ Pronto. Agora você pode executar a aplicação digitando:
     py application.py
 
 
-<h3>
+<h2>
     &#128736;&#65039; Utilizando no seu projeto:
-</h3>
+</h2>
+
+Apenas copie para a raiz do seu projeto os diretórios:
+
+    /cptec
+    /forecasts
+    /static
+
+E registre o blueprint na inicialização da aplicação:
+
+    application.register_blueprint(forecasts.forecasts_blueprint)
+
+A página para as previsões será registrada no endpoint:
+
+    /previsao
+
+Não esqueça de instalar as dependencias necessárias:
+
+    Flask==2.2.2
+    pandas==1.5.3
+    requests==2.28.2
+    xmltodict==0.13.0
+    WTForms==3.0.1
