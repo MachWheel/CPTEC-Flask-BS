@@ -10,25 +10,34 @@
 <p align="center"><b>
     &#128098; Bootstrap v5.3    
 </b></p>
+
 <p align="center"><b>
     &#128241; Mobile Friendly
 </b></p>
-<p align="center"><b>
-    &#128269; Busca por município
-</b></p>
+
 <p align="center"><b>
     &#128172; Feedbacks para erros
 </b></p>
+
+
 <p align="center"><b>
     &#128220; Lista com todos os municípios
 </b></p>
 
-<p align="center">
-    <img src="/static/demo-search.mp4?raw=true" 
-         alt="CPTEC-Flask-BS demo">
-</p>
+<div align="center">
+    <video src="https://user-images.githubusercontent.com/11186756/215348410-643f9bd8-955e-4279-ab04-b7664c23164e.mp4" alt="Demo Lista Municipios" width=480/>
+<div/>
 
 
+<p align="center"><b>
+    &#128269; Busca por município
+</b></p>
+    
+<div align="center">
+    <video src="https://user-images.githubusercontent.com/11186756/215348587-bafd9869-fb3f-4973-b0fd-2581077475db.mp4" alt="Demo Busca Municipio" width=480/>
+<div/>
+
+    
 ## &#128203; Clonando o repositório:
 
 Primeiro, verifique a versão do seu Python.  
