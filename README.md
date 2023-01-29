@@ -26,7 +26,7 @@
 
 <div align="center">
     <video src="https://user-images.githubusercontent.com/11186756/215348410-643f9bd8-955e-4279-ab04-b7664c23164e.mp4" alt="Demo Lista Municipios" width=480/>
-<div/>
+</div>
 
 
 <p align="center"><b>
@@ -35,7 +35,7 @@
     
 <div align="center">
     <video src="https://user-images.githubusercontent.com/11186756/215348587-bafd9869-fb3f-4973-b0fd-2581077475db.mp4" alt="Demo Busca Municipio" width=480/>
-<div/>
+</div>
 
     
 ## &#128203; Clonando o repositório:
