@@ -24,7 +24,7 @@
 </b></p>
 
 <p align="center">
-    <img src="/static/demo.gif?raw=true" 
+    <img src="/static/demo-search.mp4?raw=true" 
          alt="CPTEC-Flask-BS demo">
 </p>
 
